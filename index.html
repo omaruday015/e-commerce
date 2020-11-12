@@ -4,9 +4,259 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panjabi Ghar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <!-- Navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#panjabi">Panjabi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#shirt">Shirt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#fotua">Fotua</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+    </div>
+    <!-- Carousol -->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide light-pink-bg" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <div class="d-flex align-items-center row">
+                   <div class=" col-md-7">
+                        <h1>New Arraival Red Print Cotton Panjabi</h1>
+                        <p>This is pure cotton and color guarantee Panjabi for any kind of festivals. We have defferent kind of sizes S, M, L, Xl, XXL</p>
+                        <h1 class="price">৳1200/=</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                   </div>
+                   <div class="col-md-5">
+                        <img id="banner-img" src="banner-images/pan.jpeg" class="d-block w-100" alt="...">
+                   </div>
+               </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="d-flex align-items-center row">
+                      <div class="col-md-7">
+                        <h1>New Arraival light green Cotton Fotua</h1>
+                        <p>This is pure cotton and color guarantee casual fotua for gents. We have defferent kind of sizes S, M, L, Xl, XXL and also we have different colors blue, ash, off-white</p>
+                        <h1 class="price">৳800/=</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5"><img id="banner-img" src="banner-images/fot.jpg" class="d-block w-100" alt="..."></div>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                  <div class="d-flex align-items-center row">
+                      <div class="col-md-7">
+                        <h1>New Arraival coton night track</h1>
+                        <p>This is pure cotton and color guarantee night track for men (combo pajama and shirt). We have defferent kind of sizes S, M, L, Xl, XXL and also we have different type of colors blue, ash, off-white</p>
+                        <h1 class="price">৳1000/=</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5"><img id="banner-img" src="banner-images/sh.jpg" class="d-block w-100" alt="..."></div>
+                  </div>
+                
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+
+    <div class="container categories">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between align-items-center cat1">
+                    <h1>Panjabi</h1>
+                    <img src="categories/panjabi.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between align-items-center cat2">
+                    <h1>Shirt</h1>
+                    <img src="categories/shirt.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between align-items-center cat3">
+                    <h1>Fotua</h1>
+                    <img src="categories/fotua.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container panjabi" id="panjabi">
+        <h3>Panjabi</h3>
+
+        <div class="card-deck">
+            <div class="card">
+              <img src="panjabi/pan-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Khadi Yellow & Skyblue Stripe</h5>
+                <h5 class="price">৳1200/=</h5>
+                <p class="card-text">This is a long panjabi, pure Kumilla khadi cotton, size is available M, L, XL, XXL</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="panjabi/pan-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Khadi Blue & White Stripe</h5>
+                <h5 class="price">৳1200/=</h5>
+                <p class="card-text">This is a long panjabi, pure Kumilla khadi cotton, size is available M, L, XL, XXL</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="panjabi/pan-3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black & Ash Print</h5>
+                <h5 class="price" >৳1000/=</h5>
+                <p class="card-text">This is a long panjabi, pure cotton, Jamdani print Black & Ash, size is available M, L, XL, XXL.</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+               
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+    <div class="container shirt" id="shirt">
+
+        <h3>Shirt</h3>
+
+        <div class="card-deck">
+            <div class="card">
+              <img src="shirt/shirt-1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Light Blue Denim</h5>
+                <h5 class="price">৳1600/=</h5>
+                <p class="card-text">This is a denim shirt, light blue color, premium quality, size is available M, L, XL, XXL</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="shirt/shirt-2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Formal Shirt (Ash)</h5>
+                <h5 class="price">৳800/=</h5>
+                <p class="card-text">This is a formal shirt, good quality, colors are available cofee, maroon, mat black, size are available M, L, XL, XXL</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="shirt/shirt-3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nevy Blue casual</h5>
+                <h5 class="price" >৳700/=</h5>
+                <p class="card-text">This is a casual shirt, pure cotton, good quality, colors are available black, blue, skyblue, size are available M, L, XL, XXL.</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+                
+              </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="container fotua" id="fotua">
+        <h3>Fotua</h3>
+
+        <div class="card-deck">
+            <div class="card">
+              <img src="fotua/Fotua1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Half Sleeve & Half design</h5>
+                <h5 class="price">৳600/=</h5>
+                <p class="card-text">This is a casual fotua, pure cotton, light blue color, good quality, colors are available Off-white, White, Coffee, Brown, size are available M, L, XL, XXL</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="fotua/fotua2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Half Sleeve Print</h5>
+                <h5 class="price">৳650/=</h5>
+                <p class="card-text">This is a casual fotua, good quality, pure cotton, water printed, colors are available cofee, pink, light Blue, size are available M, L, XL, XXL</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="fotua/fotua3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Half Sleeve Grameen Chek</h5>
+                <h5 class="price" >৳700/=</h5>
+                <p class="card-text">This is a casual fotua, grameen chek, good quality, pure cotton, we have verious kind of chek you can contact us for more information, size are available M, L, XL, XXL.</p>
+                <button class="buy-now-button">Buy Now</button>
+                
+                
+              </div>
+            </div>
+
+        
+    </div>
+</div>
+
+    <div class="container light-pink-bg d-flex align-items-center justify-content-center" id="contact">
+        <div>
+            <h3>THANKS FOR BEEING WITH US</h3>
+            <h6>Get updates on sales, specials and more </h6>
+            <input class="form-control" type="text">
+            <button class="buy-now-button">Submit</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <small>©2020. Panjabi Ghar. All rights reserved. Pabna, Bangladesh. </small>
+    </footer>
+   
     
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> 
 </body>
 </html>
